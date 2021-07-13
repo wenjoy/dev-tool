@@ -1,0 +1,26 @@
+{
+  "name": "dev-tool",
+  "version": "1.0.0",
+  "description": "implement a dev tool in browser",
+  "main": "src/index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/index.ts --outFile test/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenjoy/dev-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenjoy/dev-tool/issues"
+  },
+  "homepage": "https://github.com/wenjoy/dev-tool#readme",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
